@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+#calc{
+    position: absolute;
+    top:20%;
+    left:30%;
+    height:70%;
+    width: 40%;
+    min-height:400px;
+    min-width:300px;
+    background-color: rgb(179, 177, 177);
+    border: 2px solid white;
+    cursor: pointer;
+}
+/*#calc:hover{
+    box-shadow:10px 10px 15px 15px grey;
+}
+*/
+#name{
+    position: relative;
+    top: 2%;
+    margin: auto;
+    height:40px;
+    width: 95%;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#display-container{
+    position: relative;
+    height:60px;
+    width:95%;
+    top: 4%;
+    margin: auto;
+    text-align: right;
+    background-color: white;
+    border:1px solid grey;
+    border-radius:10px;
+    margin-bottom: 1px;
+}
+#display{
+    margin-top:12px;
+    color:black;
+    font-size:2rem;
+    font-weight: 400;
+    margin-right:2px;
+}
+
+.row{
+    position:relative;
+    margin: auto;
+    width:90%;
+    height:10%;
+    top:6%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.button{
+    width: 24%;
+    height:100%;
+    font-size: 1.8rem;
+    background-color: white;
+    border-radius:0.5rem;
+}
+.button:nth-child(4){
+    background-color:brown;
+}
+.special_button{
+    width:48%;
+}
+.button span{
+    display: inline-block;
+    margin-left:24px;
+    font-weight:500;
+}
+.special_button span{
+    margin-left: 58px;
+}
+
+.button:hover{
+    border: 1px solid aquamarine;
+    background-color:aqua;
+}
